@@ -12,7 +12,6 @@ The following information describes common commands used in Git, and details how
 - `git merge` - Aligns and merges missed commits from a remote repository with your local branch. 
 - `git pull` - Receives changes from a remote repository, and merges them with the changes on your local branch.
 
-This is how code is shared with a remote repository, you can think of it as "make the remote branch resemble my local branch". 
 This will fail if the remote branch has diverged from your local branch: if not all the commits in the remote branch are in your local branch. 
 When this happens, your local branch needs to be synchronized with the remote branch with git pull or git fetch and git merge.
 `git fetch` again takes our current branch, and checks to see if there is a tracking branch. 
