@@ -12,7 +12,7 @@ The following information describes common commands used in Git, and details how
 - `git merge` - Aligns and merges missed commits from a remote repository with your local branch. 
 - `git pull` - Receives changes from a remote repository, and merges them with the changes on your local branch.
 
-If any commits from the remote repository do not make it to your local branch, a divergence will occur and will result in an error. To fix this, sync your local branch with the remote branch on the repository by using the `git merge origin/master` command. This  merges any missed changes from your local branch with the changes on the master branch.
+If any commits from the remote repository do not make it to your local branch, a divergence will occur and will result in an error. To fix this, sync your local branch with the remote branch on the repository by using the `git merge origin/master` command. This  merges any missed changes from your local branch and the repository master branch.
 
 To do that, you'll need to do `git merge origin/master` (for the "master" branch) to merge those changes into your branch - probably also called "master".
 `git pull` simply does a `git fetch` followed immediately by `git merge`. 
