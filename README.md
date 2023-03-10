@@ -16,5 +16,3 @@ The following information describes common commands used in Git, and details how
     Using ``` git fetch``` followed by ```git merge``` allows you to see and review the changes you are merging with your local branch before the merge happens. This is ultimately what ```git pull``` does by merging changes on to your local branch.
 
 If any changes on your local branch are out of sync with the changes on the remote repository, a divergence will occur and will result in an error. To fix this, sync your local branch with the remote branch on the repository by using the `git merge origin/master` command. This merges any missed changes from your local branch with the repository master branch.
-
-This is often what we desire to do, but some people prefer to use git fetch followed by git merge to make sure they understand the changes they are merging into their branch before the merge happens.
