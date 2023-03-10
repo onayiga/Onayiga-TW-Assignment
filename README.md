@@ -5,6 +5,8 @@ Technical writing assignment | HashiCorp interview
 
 ### What is the difference between push, pull, and fetch?
 
+The following information describes common commands used in Git, and details how these commands allow you to share code with a remote repository.
+
 - `git push` - Sends changes from your local branch to a remote repository.
 - `git fetch` - Receives changes from a remote repository, and copies them on to a tracking branch. This will not change your local branch.
 - `git pull` - Receives changes from a remote repository, and merges them with the changes on your local branch.
